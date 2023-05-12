@@ -29,7 +29,7 @@ export default function Home() {
       <footer>
         <div className="container flex justify-center">
           <p className="text-center text-sm text-gray-500">
-            Made with 🥚🥚 by <a href="https://twitter.com/lopongoaca" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600">Lopongoaca</a>
+            Made with 🍺 by <a href="https://twitter.com/lopongoaca" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600">Lopongoaca</a>
           </p>
         </div>
       </footer>
