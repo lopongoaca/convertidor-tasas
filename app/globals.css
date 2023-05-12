@@ -18,7 +18,7 @@ body {
 }
 
 main {
-  @apply relative flex h-full w-full flex-none flex-col items-center gap-10 overflow-hidden bg-black p-10;
+  @apply relative flex h-full w-full flex-none flex-col items-center gap-8 overflow-hidden bg-black p-10;
 }
 
 
@@ -40,6 +40,15 @@ h1 {
 .card h2 {
   @apply text-xl pb-2 text-neutral-200 font-thin text-center;
 }
+
+h3 {
+  white-space: pre-wrap;
+}
+
+footer {
+  @apply mt-20;
+}
+
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {

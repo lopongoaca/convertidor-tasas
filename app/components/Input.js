@@ -29,7 +29,8 @@ export const Input = ({ placeholder, type, onData, onText }) => {
         setOpacity(0);
         setValue("");
         onData('')
-        onText('')
+        onText(`⬆️
+  Digita la tasa que quieres convertir`)
     };
 
     const handleMouseEnter = () => {
@@ -47,12 +48,8 @@ export const Input = ({ placeholder, type, onData, onText }) => {
         const pointCount = (value.match(/\./g) || []).length;
         // if (pointCount > 1 || !re.test(e.target.value)) return;
         if (pointCount > 1) return;
-
         setValue(value);
         valueResult(value)
-
-
-
     }
 
     const valueResult = (value) => {
@@ -82,7 +79,7 @@ export const Input = ({ placeholder, type, onData, onText }) => {
                 placeholder={placeholder}
                 onChange={handleChange}
                 value={value}
-                type="text"
+                type="number"
                 name="email"
                 className="bg-neutral-950 h-12 text-2xl w-full cursor-default rounded-md border border-slate-800 p-3.5 text-slate-100 transition-colors duration-500 placeholder:select-none text-center  placeholder:text-neutral-500 focus:border-[#e42068] focus:outline-none"
             />
